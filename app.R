@@ -25,7 +25,7 @@ remotes::install_github("Lchiffon/wordcloud2")'
 #this code is for part 1 (exploring themes)
 #please run this once (without quotation marks) if the plots for "Data Exploration" aren't showing
 #You should also save the new environment generated into the R Workspace
-'
+
 d2<-read_csv("dat_2.csv")
 d3<-read_csv("dat_3.csv")
 d6<-read_csv("dat_6.csv")
@@ -300,7 +300,7 @@ d4_sample_plot_k3 <- d4_sample %>%
   rename_with(~ gsub("_1", "",.x)) %>%
   gather(X1:X15,key = "Topic",value = "Probability")
   
-'
+
 
 
 #################################################################################
